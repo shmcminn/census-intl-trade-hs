@@ -15,6 +15,7 @@ This is very much under development and **not 100 percent reliable**! Always che
 ## Prerequisites
 
 - `uv` installed.
+  - Install: `curl -LsSf https://astral.sh/uv/install.sh | sh`
 - A Census API key.
 
 ## Install as a Codex skill
@@ -97,4 +98,3 @@ uv run --with pandas -- python scripts/query_trade_api.py \
   --param CTY_CODE=5700 \
   --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
 ```
-
