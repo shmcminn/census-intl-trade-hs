@@ -30,6 +30,34 @@ Use it in prompts with:
 Use $census-intl-trade-hs to answer this trade question...
 ```
 
+## Using with Claude Code
+
+Use this implementation flow for Claude Code.
+
+### 1) Install in Claude
+
+1. Download this repo (`git clone` or ZIP from GitHub).
+2. In Claude, open `Settings -> Skills`.
+3. Click `Upload skill` and select the skill folder (zip if prompted).
+
+### 2) Enable and verify runtime access
+
+- Enable the uploaded skill in Claude.
+- If your setup uses MCP tools, confirm the MCP server is connected.
+- Set your API key in the shell used for script execution:
+
+```bash
+export CENSUS_API_KEY='your_key_here'
+```
+
+To persist it, add that line to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.).
+
+### 3) Test with a real query
+
+```
+Use the census-intl-trade-hs skill workflow in SKILL.md to get total imports from China in the last few years.
+```
+
 ## Give the skill access to your Census API key
 
 The script checks for an API key in this order:
