@@ -2,6 +2,8 @@
 
 Skill and helper scripts for querying the U.S. Census International Trade API with HS-code scope checks.
 
+This is very much under development and **not 100 percent reliable**! Always check important information returned by an LLM. Please give feedback with examples you've used via `Discussions` or `Issues` tabs.
+
 ## What this repo includes
 
 - `SKILL.md`: prompt rules and workflow for HS-scoped trade analysis.
@@ -96,41 +98,3 @@ uv run --with pandas -- python scripts/query_trade_api.py \
   --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
 ```
 
-## Quick usage examples
-
-### 1) Country-level pull (no HS list)
-
-```bash
-uv run --with pandas -- python scripts/query_trade_api.py \
-  --path imports/hs \
-  --param YEAR=2025 \
-  --param MONTH=12 \
-  --param I_COMMODITY=- \
-  --param CTY_CODE=5700 \
-  --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
-```
-
-### 2) HS-filtered pull (requires explicit scope confirmation)
-
-```bash
-uv run --with pandas -- python scripts/query_trade_api.py \
-  --path imports/hs \
-  --param YEAR=2025 \
-  --param 'MONTH=*' \
-  --param CTY_CODE=5700 \
-  --param get=YEAR,MONTH,CTY_CODE,I_COMMODITY,GEN_VAL_MO \
-  --hs-codes 852872,852873 \
-  --hs-code-param I_COMMODITY \
-  --confirm-scope
-```
-
-### 3) Rebuild local country-code cache
-
-```bash
-uv run --with pandas -- python scripts/build_country_codes_reference.py
-```
-
-## Notes
-
-- The query script prints request URLs with API keys redacted.
-- For open-source publishing, keep this repo separate from your main multi-skill repo history.
