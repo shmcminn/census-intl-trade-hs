@@ -86,3 +86,10 @@ EOF2
 chmod 600 ~/.codex/census.env
 ```
 
+## Natural-language query examples
+
+- "For Brazil, give monthly U.S. imports in 2024 for HS code 0901."
+- "What were the top 10 source countries for U.S. imports in 2025?"
+- "Compare U.S. exports to Canada vs. Mexico for 2021 through 2025."
+- "For U.S. imports from China, find the largest HS2 category each year since 2018."
+- "Give U.S. exports to Germany for computers."
