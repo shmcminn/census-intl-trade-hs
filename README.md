@@ -86,15 +86,3 @@ EOF2
 chmod 600 ~/.codex/census.env
 ```
 
-### Option 3: One-off key on a single command
-
-```bash
-uv run --with pandas -- python scripts/query_trade_api.py \
-  --path imports/hs \
-  --api-key 'your_key_here' \
-  --param YEAR=2025 \
-  --param MONTH=12 \
-  --param I_COMMODITY=- \
-  --param CTY_CODE=5700 \
-  --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
-```
