@@ -1,0 +1,4 @@
+interface:
+  display_name: "Census Trade HS Scope"
+  short_description: "Query Census trade API with HS scope confirmation"
+  default_prompt: "Use $census-intl-trade-hs to answer U.S. trade API questions, confirm HS scope before querying, and include the exact source URL."

@@ -1,0 +1,238 @@
+CTY_CODE,CTY_NAME,first_year_seen,latest_year_seen,source_flows,CTY_NAME_NORM
+1010,GREENLAND,2010,2025,"exports/hs,imports/hs",GREENLAND
+1220,CANADA,2010,2025,"exports/hs,imports/hs",CANADA
+1610,ST PIERRE AND MIQUELON,2010,2025,"exports/hs,imports/hs",ST PIERRE AND MIQUELON
+2010,MEXICO,2010,2025,"exports/hs,imports/hs",MEXICO
+2050,GUATEMALA,2010,2025,"exports/hs,imports/hs",GUATEMALA
+2080,BELIZE,2010,2025,"exports/hs,imports/hs",BELIZE
+2110,EL SALVADOR,2010,2025,"exports/hs,imports/hs",EL SALVADOR
+2150,HONDURAS,2010,2025,"exports/hs,imports/hs",HONDURAS
+2190,NICARAGUA,2010,2025,"exports/hs,imports/hs",NICARAGUA
+2230,COSTA RICA,2010,2025,"exports/hs,imports/hs",COSTA RICA
+2250,PANAMA,2010,2025,"exports/hs,imports/hs",PANAMA
+2320,BERMUDA,2010,2025,"exports/hs,imports/hs",BERMUDA
+2360,BAHAMAS,2010,2025,"exports/hs,imports/hs",BAHAMAS
+2390,CUBA,2010,2025,"exports/hs,imports/hs",CUBA
+2410,JAMAICA,2010,2025,"exports/hs,imports/hs",JAMAICA
+2430,TURKS AND CAICOS ISLANDS,2010,2025,"exports/hs,imports/hs",TURKS AND CAICOS ISLANDS
+2440,CAYMAN ISLANDS,2010,2025,"exports/hs,imports/hs",CAYMAN ISLANDS
+2450,HAITI,2010,2025,"exports/hs,imports/hs",HAITI
+2470,DOMINICAN REPUBLIC,2010,2025,"exports/hs,imports/hs",DOMINICAN REPUBLIC
+2481,ANGUILLA,2010,2025,"exports/hs,imports/hs",ANGUILLA
+2482,BRITISH VIRGIN ISLANDS,2010,2025,"exports/hs,imports/hs",BRITISH VIRGIN ISLANDS
+2483,ST KITTS AND NEVIS,2010,2025,"exports/hs,imports/hs",ST KITTS AND NEVIS
+2484,ANTIGUA AND BARBUDA,2010,2025,"exports/hs,imports/hs",ANTIGUA AND BARBUDA
+2485,MONTSERRAT,2010,2025,"exports/hs,imports/hs",MONTSERRAT
+2486,DOMINICA,2010,2025,"exports/hs,imports/hs",DOMINICA
+2487,ST LUCIA,2010,2025,"exports/hs,imports/hs",ST LUCIA
+2488,ST VINCENT AND THE GRENADINES,2010,2025,"exports/hs,imports/hs",ST VINCENT AND THE GRENADINES
+2489,GRENADA,2010,2025,"exports/hs,imports/hs",GRENADA
+2720,BARBADOS,2010,2025,"exports/hs,imports/hs",BARBADOS
+2740,TRINIDAD AND TOBAGO,2010,2025,"exports/hs,imports/hs",TRINIDAD AND TOBAGO
+2771,NETHERLANDS ANTILLES,2010,2011,"exports/hs,imports/hs",NETHERLANDS ANTILLES
+2774,SINT MAARTEN,2011,2025,"exports/hs,imports/hs",SINT MAARTEN
+2777,CURACAO,2011,2025,"exports/hs,imports/hs",CURACAO
+2779,ARUBA,2010,2025,"exports/hs,imports/hs",ARUBA
+2831,GUADELOUPE,2010,2025,"exports/hs,imports/hs",GUADELOUPE
+2839,MARTINIQUE,2010,2025,"exports/hs,imports/hs",MARTINIQUE
+3010,COLOMBIA,2010,2025,"exports/hs,imports/hs",COLOMBIA
+3070,VENEZUELA,2010,2025,"exports/hs,imports/hs",VENEZUELA
+3120,GUYANA,2010,2025,"exports/hs,imports/hs",GUYANA
+3150,SURINAME,2010,2025,"exports/hs,imports/hs",SURINAME
+3170,FRENCH GUIANA,2010,2025,"exports/hs,imports/hs",FRENCH GUIANA
+3310,ECUADOR,2010,2025,"exports/hs,imports/hs",ECUADOR
+3330,PERU,2010,2025,"exports/hs,imports/hs",PERU
+3350,BOLIVIA,2010,2025,"exports/hs,imports/hs",BOLIVIA
+3370,CHILE,2010,2025,"exports/hs,imports/hs",CHILE
+3510,BRAZIL,2010,2025,"exports/hs,imports/hs",BRAZIL
+3530,PARAGUAY,2010,2025,"exports/hs,imports/hs",PARAGUAY
+3550,URUGUAY,2010,2025,"exports/hs,imports/hs",URUGUAY
+3570,ARGENTINA,2010,2025,"exports/hs,imports/hs",ARGENTINA
+3720,FALKLAND ISLANDS (ISLAS MALVINAS),2010,2025,"exports/hs,imports/hs",FALKLAND ISLANDS ISLAS MALVINAS
+4000,ICELAND,2010,2025,"exports/hs,imports/hs",ICELAND
+4010,SWEDEN,2010,2025,"exports/hs,imports/hs",SWEDEN
+4031,"SVALBARD, JAN MAYEN ISLAND",2010,2025,"exports/hs,imports/hs",SVALBARD JAN MAYEN ISLAND
+4039,NORWAY,2010,2025,"exports/hs,imports/hs",NORWAY
+4050,FINLAND,2010,2025,"exports/hs,imports/hs",FINLAND
+4091,FAROE ISLANDS,2010,2025,"exports/hs,imports/hs",FAROE ISLANDS
+4099,DENMARK,2010,2025,"exports/hs,imports/hs",DENMARK
+4120,UNITED KINGDOM,2010,2025,"exports/hs,imports/hs",UNITED KINGDOM
+4190,IRELAND,2010,2025,"exports/hs,imports/hs",IRELAND
+4210,NETHERLANDS,2010,2025,"exports/hs,imports/hs",NETHERLANDS
+4231,BELGIUM,2010,2025,"exports/hs,imports/hs",BELGIUM
+4239,LUXEMBOURG,2010,2025,"exports/hs,imports/hs",LUXEMBOURG
+4271,ANDORRA,2010,2025,"exports/hs,imports/hs",ANDORRA
+4272,MONACO,2010,2025,"exports/hs,imports/hs",MONACO
+4279,FRANCE,2010,2025,"exports/hs,imports/hs",FRANCE
+4280,GERMANY,2010,2025,"exports/hs,imports/hs",GERMANY
+4330,AUSTRIA,2010,2025,"exports/hs,imports/hs",AUSTRIA
+4351,CZECH REPUBLIC,2010,2025,"exports/hs,imports/hs",CZECH REPUBLIC
+4359,SLOVAKIA,2010,2025,"exports/hs,imports/hs",SLOVAKIA
+4370,HUNGARY,2010,2025,"exports/hs,imports/hs",HUNGARY
+4411,LIECHTENSTEIN,2010,2025,"exports/hs,imports/hs",LIECHTENSTEIN
+4419,SWITZERLAND,2010,2025,"exports/hs,imports/hs",SWITZERLAND
+4470,ESTONIA,2010,2025,"exports/hs,imports/hs",ESTONIA
+4490,LATVIA,2010,2025,"exports/hs,imports/hs",LATVIA
+4510,LITHUANIA,2010,2025,"exports/hs,imports/hs",LITHUANIA
+4550,POLAND,2010,2025,"exports/hs,imports/hs",POLAND
+4621,RUSSIA,2010,2025,"exports/hs,imports/hs",RUSSIA
+4622,BELARUS,2010,2025,"exports/hs,imports/hs",BELARUS
+4623,UKRAINE,2010,2025,"exports/hs,imports/hs",UKRAINE
+4631,ARMENIA,2010,2025,"exports/hs,imports/hs",ARMENIA
+4632,AZERBAIJAN,2010,2025,"exports/hs,imports/hs",AZERBAIJAN
+4633,GEORGIA,2010,2025,"exports/hs,imports/hs",GEORGIA
+4634,KAZAKHSTAN,2010,2025,"exports/hs,imports/hs",KAZAKHSTAN
+4635,KYRGYZSTAN,2010,2025,"exports/hs,imports/hs",KYRGYZSTAN
+4641,MOLDOVA,2010,2025,"exports/hs,imports/hs",MOLDOVA
+4642,TAJIKISTAN,2010,2025,"exports/hs,imports/hs",TAJIKISTAN
+4643,TURKMENISTAN,2010,2025,"exports/hs,imports/hs",TURKMENISTAN
+4644,UZBEKISTAN,2010,2025,"exports/hs,imports/hs",UZBEKISTAN
+4700,SPAIN,2010,2025,"exports/hs,imports/hs",SPAIN
+4710,PORTUGAL,2010,2025,"exports/hs,imports/hs",PORTUGAL
+4720,GIBRALTAR,2010,2025,"exports/hs,imports/hs",GIBRALTAR
+4730,MALTA,2010,2025,"exports/hs,imports/hs",MALTA
+4751,SAN MARINO,2010,2025,"exports/hs,imports/hs",SAN MARINO
+4752,VATICAN CITY,2010,2025,"exports/hs,imports/hs",VATICAN CITY
+4759,ITALY,2010,2025,"exports/hs,imports/hs",ITALY
+4791,CROATIA,2010,2025,"exports/hs,imports/hs",CROATIA
+4792,SLOVENIA,2010,2025,"exports/hs,imports/hs",SLOVENIA
+4793,BOSNIA AND HERZEGOVINA,2010,2025,"exports/hs,imports/hs",BOSNIA AND HERZEGOVINA
+4794,MACEDONIA,2010,2025,"exports/hs,imports/hs",MACEDONIA
+4801,SERBIA,2010,2025,"exports/hs,imports/hs",SERBIA
+4803,KOSOVO,2010,2025,"exports/hs,imports/hs",KOSOVO
+4804,MONTENEGRO,2010,2025,"exports/hs,imports/hs",MONTENEGRO
+4810,ALBANIA,2010,2025,"exports/hs,imports/hs",ALBANIA
+4840,GREECE,2010,2025,"exports/hs,imports/hs",GREECE
+4850,ROMANIA,2010,2025,"exports/hs,imports/hs",ROMANIA
+4870,BULGARIA,2010,2025,"exports/hs,imports/hs",BULGARIA
+4890,TURKEY,2010,2025,"exports/hs,imports/hs",TURKEY
+4910,CYPRUS,2010,2025,"exports/hs,imports/hs",CYPRUS
+5020,SYRIA,2010,2025,"exports/hs,imports/hs",SYRIA
+5040,LEBANON,2010,2025,"exports/hs,imports/hs",LEBANON
+5050,IRAQ,2010,2025,"exports/hs,imports/hs",IRAQ
+5070,IRAN,2010,2025,"exports/hs,imports/hs",IRAN
+5081,ISRAEL,2010,2025,"exports/hs,imports/hs",ISRAEL
+5082,GAZA STRIP ADMINISTERED BY ISRAEL,2010,2025,"exports/hs,imports/hs",GAZA STRIP ADMINISTERED BY ISRAEL
+5083,WEST BANK ADMINISTERED BY ISRAEL,2010,2025,"exports/hs,imports/hs",WEST BANK ADMINISTERED BY ISRAEL
+5110,JORDAN,2010,2025,"exports/hs,imports/hs",JORDAN
+5130,KUWAIT,2010,2025,"exports/hs,imports/hs",KUWAIT
+5170,SAUDI ARABIA,2010,2025,"exports/hs,imports/hs",SAUDI ARABIA
+5180,QATAR,2010,2025,"exports/hs,imports/hs",QATAR
+5200,UNITED ARAB EMIRATES,2010,2025,"exports/hs,imports/hs",UNITED ARAB EMIRATES
+5210,YEMEN,2010,2025,"exports/hs,imports/hs",YEMEN
+5230,OMAN,2010,2025,"exports/hs,imports/hs",OMAN
+5250,BAHRAIN,2010,2025,"exports/hs,imports/hs",BAHRAIN
+5310,AFGHANISTAN,2010,2025,"exports/hs,imports/hs",AFGHANISTAN
+5330,INDIA,2010,2025,"exports/hs,imports/hs",INDIA
+5350,PAKISTAN,2010,2025,"exports/hs,imports/hs",PAKISTAN
+5360,NEPAL,2010,2025,"exports/hs,imports/hs",NEPAL
+5380,BANGLADESH,2010,2025,"exports/hs,imports/hs",BANGLADESH
+5420,SRI LANKA,2010,2025,"exports/hs,imports/hs",SRI LANKA
+5460,BURMA,2010,2025,"exports/hs,imports/hs",BURMA
+5490,THAILAND,2010,2025,"exports/hs,imports/hs",THAILAND
+5520,VIETNAM,2010,2025,"exports/hs,imports/hs",VIETNAM
+5530,LAOS,2010,2025,"exports/hs,imports/hs",LAOS
+5550,CAMBODIA,2010,2025,"exports/hs,imports/hs",CAMBODIA
+5570,MALAYSIA,2010,2025,"exports/hs,imports/hs",MALAYSIA
+5590,SINGAPORE,2010,2025,"exports/hs,imports/hs",SINGAPORE
+5600,INDONESIA,2010,2025,"exports/hs,imports/hs",INDONESIA
+5601,TIMOR-LESTE,2010,2025,"exports/hs,imports/hs",TIMOR LESTE
+5610,BRUNEI,2010,2025,"exports/hs,imports/hs",BRUNEI
+5650,PHILIPPINES,2010,2025,"exports/hs,imports/hs",PHILIPPINES
+5660,MACAU,2010,2025,"exports/hs,imports/hs",MACAU
+5682,BHUTAN,2010,2025,"exports/hs,imports/hs",BHUTAN
+5683,MALDIVES,2010,2025,"exports/hs,imports/hs",MALDIVES
+5700,CHINA,2010,2025,"exports/hs,imports/hs",CHINA
+5740,MONGOLIA,2010,2025,"exports/hs,imports/hs",MONGOLIA
+5790,"KOREA, NORTH",2010,2025,"exports/hs,imports/hs",KOREA NORTH
+5800,"KOREA, SOUTH",2010,2025,"exports/hs,imports/hs",KOREA SOUTH
+5820,HONG KONG,2010,2025,"exports/hs,imports/hs",HONG KONG
+5830,TAIWAN,2010,2025,"exports/hs,imports/hs",TAIWAN
+5880,JAPAN,2010,2025,"exports/hs,imports/hs",JAPAN
+6021,AUSTRALIA,2010,2025,"exports/hs,imports/hs",AUSTRALIA
+6022,NORFOLK ISLAND,2010,2025,"exports/hs,imports/hs",NORFOLK ISLAND
+6023,COCOS (KEELING) ISLANDS,2010,2025,"exports/hs,imports/hs",COCOS KEELING ISLANDS
+6024,CHRISTMAS ISLAND,2010,2025,"exports/hs,imports/hs",CHRISTMAS ISLAND
+6029,HEARD AND MCDONALD ISLANDS,2010,2025,"exports/hs,imports/hs",HEARD AND MCDONALD ISLANDS
+6040,PAPUA NEW GUINEA,2010,2025,"exports/hs,imports/hs",PAPUA NEW GUINEA
+6141,NEW ZEALAND,2010,2025,"exports/hs,imports/hs",NEW ZEALAND
+6142,COOK ISLANDS,2010,2025,"exports/hs,imports/hs",COOK ISLANDS
+6143,TOKELAU,2010,2025,"exports/hs,imports/hs",TOKELAU
+6144,NIUE,2010,2025,"exports/hs,imports/hs",NIUE
+6150,SAMOA,2010,2025,"exports/hs,imports/hs",SAMOA
+6223,SOLOMON ISLANDS,2010,2025,"exports/hs,imports/hs",SOLOMON ISLANDS
+6224,VANUATU,2010,2025,"exports/hs,imports/hs",VANUATU
+6225,PITCAIRN ISLANDS,2010,2025,"exports/hs,imports/hs",PITCAIRN ISLANDS
+6226,KIRIBATI,2010,2025,"exports/hs,imports/hs",KIRIBATI
+6227,TUVALU,2010,2025,"exports/hs,imports/hs",TUVALU
+6412,NEW CALEDONIA,2010,2025,"exports/hs,imports/hs",NEW CALEDONIA
+6413,WALLIS AND FUTUNA,2010,2025,"exports/hs,imports/hs",WALLIS AND FUTUNA
+6414,FRENCH POLYNESIA,2010,2025,"exports/hs,imports/hs",FRENCH POLYNESIA
+6810,MARSHALL ISLANDS,2010,2025,"exports/hs,imports/hs",MARSHALL ISLANDS
+6820,MICRONESIA,2010,2025,"exports/hs,imports/hs",MICRONESIA
+6830,PALAU,2010,2025,"exports/hs,imports/hs",PALAU
+6862,NAURU,2010,2025,"exports/hs,imports/hs",NAURU
+6863,FIJI,2010,2025,"exports/hs,imports/hs",FIJI
+6864,TONGA,2010,2025,"exports/hs,imports/hs",TONGA
+7140,MOROCCO,2010,2025,"exports/hs,imports/hs",MOROCCO
+7210,ALGERIA,2010,2025,"exports/hs,imports/hs",ALGERIA
+7230,TUNISIA,2010,2025,"exports/hs,imports/hs",TUNISIA
+7250,LIBYA,2010,2025,"exports/hs,imports/hs",LIBYA
+7290,EGYPT,2010,2025,"exports/hs,imports/hs",EGYPT
+7320,SUDAN,2010,2011,"exports/hs,imports/hs",SUDAN
+7321,SUDAN,2011,2025,"exports/hs,imports/hs",SUDAN
+7323,SOUTH SUDAN,2011,2025,"exports/hs,imports/hs",SOUTH SUDAN
+7370,WESTERN SAHARA,2010,2020,"exports/hs,imports/hs",WESTERN SAHARA
+7380,EQUATORIAL GUINEA,2010,2025,"exports/hs,imports/hs",EQUATORIAL GUINEA
+7410,MAURITANIA,2010,2025,"exports/hs,imports/hs",MAURITANIA
+7420,CAMEROON,2010,2025,"exports/hs,imports/hs",CAMEROON
+7440,SENEGAL,2010,2025,"exports/hs,imports/hs",SENEGAL
+7450,MALI,2010,2025,"exports/hs,imports/hs",MALI
+7460,GUINEA,2010,2025,"exports/hs,imports/hs",GUINEA
+7470,SIERRA LEONE,2010,2025,"exports/hs,imports/hs",SIERRA LEONE
+7480,COTE D'IVOIRE,2010,2025,"exports/hs,imports/hs",COTE D IVOIRE
+7490,GHANA,2010,2025,"exports/hs,imports/hs",GHANA
+7500,GAMBIA,2010,2025,"exports/hs,imports/hs",GAMBIA
+7510,NIGER,2010,2025,"exports/hs,imports/hs",NIGER
+7520,TOGO,2010,2025,"exports/hs,imports/hs",TOGO
+7530,NIGERIA,2010,2025,"exports/hs,imports/hs",NIGERIA
+7540,CENTRAL AFRICAN REPUBLIC,2010,2025,"exports/hs,imports/hs",CENTRAL AFRICAN REPUBLIC
+7550,GABON,2010,2025,"exports/hs,imports/hs",GABON
+7560,CHAD,2010,2025,"exports/hs,imports/hs",CHAD
+7580,ST HELENA,2010,2025,"exports/hs,imports/hs",ST HELENA
+7600,BURKINA FASO,2010,2025,"exports/hs,imports/hs",BURKINA FASO
+7610,BENIN,2010,2025,"exports/hs,imports/hs",BENIN
+7620,ANGOLA,2010,2025,"exports/hs,imports/hs",ANGOLA
+7630,CONGO,2010,2025,"exports/hs,imports/hs",CONGO
+7642,GUINEA-BISSAU,2010,2025,"exports/hs,imports/hs",GUINEA BISSAU
+7643,CABO VERDE,2010,2025,"exports/hs,imports/hs",CABO VERDE
+7644,SAO TOME AND PRINCIPE,2010,2025,"exports/hs,imports/hs",SAO TOME AND PRINCIPE
+7650,LIBERIA,2010,2025,"exports/hs,imports/hs",LIBERIA
+7660,DEMOCRATIC REPUBLIC OF THE CONGO,2010,2025,"exports/hs,imports/hs",DEMOCRATIC REPUBLIC OF THE CONGO
+7670,BURUNDI,2010,2025,"exports/hs,imports/hs",BURUNDI
+7690,RWANDA,2010,2025,"exports/hs,imports/hs",RWANDA
+7700,SOMALIA,2010,2025,"exports/hs,imports/hs",SOMALIA
+7741,ERITREA,2010,2025,"exports/hs,imports/hs",ERITREA
+7749,ETHIOPIA,2010,2025,"exports/hs,imports/hs",ETHIOPIA
+7770,DJIBOUTI,2010,2025,"exports/hs,imports/hs",DJIBOUTI
+7780,UGANDA,2010,2025,"exports/hs,imports/hs",UGANDA
+7790,KENYA,2010,2025,"exports/hs,imports/hs",KENYA
+7800,SEYCHELLES,2010,2025,"exports/hs,imports/hs",SEYCHELLES
+7810,BRITISH INDIAN OCEAN TERRITORIES,2010,2025,"exports/hs,imports/hs",BRITISH INDIAN OCEAN TERRITORIES
+7830,TANZANIA,2010,2025,"exports/hs,imports/hs",TANZANIA
+7850,MAURITIUS,2010,2025,"exports/hs,imports/hs",MAURITIUS
+7870,MOZAMBIQUE,2010,2025,"exports/hs,imports/hs",MOZAMBIQUE
+7880,MADAGASCAR,2010,2025,"exports/hs,imports/hs",MADAGASCAR
+7881,MAYOTTE,2010,2025,"exports/hs,imports/hs",MAYOTTE
+7890,COMOROS,2010,2025,"exports/hs,imports/hs",COMOROS
+7904,REUNION,2010,2025,"exports/hs,imports/hs",REUNION
+7905,FRENCH SOUTHERN AND ANTARCTIC LANDS,2010,2025,"exports/hs,imports/hs",FRENCH SOUTHERN AND ANTARCTIC LANDS
+7910,SOUTH AFRICA,2010,2025,"exports/hs,imports/hs",SOUTH AFRICA
+7920,NAMIBIA,2010,2025,"exports/hs,imports/hs",NAMIBIA
+7930,BOTSWANA,2010,2025,"exports/hs,imports/hs",BOTSWANA
+7940,ZAMBIA,2010,2025,"exports/hs,imports/hs",ZAMBIA
+7950,ESWATINI,2010,2025,"exports/hs,imports/hs",ESWATINI
+7960,ZIMBABWE,2010,2025,"exports/hs,imports/hs",ZIMBABWE
+7970,MALAWI,2010,2025,"exports/hs,imports/hs",MALAWI
+7990,LESOTHO,2010,2025,"exports/hs,imports/hs",LESOTHO
+8220,,2010,2016,exports/hs,

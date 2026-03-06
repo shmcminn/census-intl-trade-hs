@@ -1,0 +1,108 @@
+# census-intl-trade-hs
+
+Skill and helper scripts for querying the U.S. Census International Trade API with HS-code scope checks.
+
+## What this repo includes
+
+- `SKILL.md`: prompt rules and workflow for HS-scoped trade analysis.
+- `scripts/query_trade_api.py`: CLI for Census trade API pulls with guardrails.
+- `scripts/build_country_codes_reference.py`: refreshes local country code cache.
+- `references/`: endpoint notes, HS scope notes, and country code reference CSV.
+- `agents/openai.yaml`: optional agent metadata.
+
+## Prerequisites
+
+- `uv` installed.
+- A Census API key.
+
+## Install as a Codex skill
+
+Clone this repo, then copy it into your Codex skills directory with the same folder name:
+
+```bash
+mkdir -p ~/.codex/skills
+rsync -av /path/to/census-intl-trade-hs/ ~/.codex/skills/census-intl-trade-hs/
+```
+
+Use it in prompts with:
+
+```text
+Use $census-intl-trade-hs to answer this trade question...
+```
+
+## Give the skill access to your Census API key
+
+The script checks for an API key in this order:
+1. `--api-key` argument (one run only)
+2. `CENSUS_API_KEY` environment variable
+3. `~/.codex/census.env`
+
+### Option 1: Environment variable (recommended)
+
+```bash
+export CENSUS_API_KEY='your_key_here'
+```
+
+To persist it, add that line to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.).
+
+### Option 2: Codex env file
+
+```bash
+mkdir -p ~/.codex
+cat > ~/.codex/census.env <<'EOF2'
+CENSUS_API_KEY=your_key_here
+EOF2
+chmod 600 ~/.codex/census.env
+```
+
+### Option 3: One-off key on a single command
+
+```bash
+uv run --with pandas -- python scripts/query_trade_api.py \
+  --path imports/hs \
+  --api-key 'your_key_here' \
+  --param YEAR=2025 \
+  --param MONTH=12 \
+  --param I_COMMODITY=- \
+  --param CTY_CODE=5700 \
+  --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
+```
+
+## Quick usage examples
+
+### 1) Country-level pull (no HS list)
+
+```bash
+uv run --with pandas -- python scripts/query_trade_api.py \
+  --path imports/hs \
+  --param YEAR=2025 \
+  --param MONTH=12 \
+  --param I_COMMODITY=- \
+  --param CTY_CODE=5700 \
+  --param get=YEAR,MONTH,CTY_CODE,CTY_NAME,GEN_VAL_MO
+```
+
+### 2) HS-filtered pull (requires explicit scope confirmation)
+
+```bash
+uv run --with pandas -- python scripts/query_trade_api.py \
+  --path imports/hs \
+  --param YEAR=2025 \
+  --param 'MONTH=*' \
+  --param CTY_CODE=5700 \
+  --param get=YEAR,MONTH,CTY_CODE,I_COMMODITY,GEN_VAL_MO \
+  --hs-codes 852872,852873 \
+  --hs-code-param I_COMMODITY \
+  --confirm-scope
+```
+
+### 3) Rebuild local country-code cache
+
+```bash
+uv run --with pandas -- python scripts/build_country_codes_reference.py
+```
+
+## Notes
+
+- The query script prints request URLs with API keys redacted.
+- For open-source publishing, keep this repo separate from your main multi-skill repo history.
