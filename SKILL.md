@@ -15,7 +15,7 @@ Use this skill when a user asks for U.S. imports/exports from the Census Interna
 4. Always include an explicit `get=` field list in API requests.
 5. Prefer `CTY_CODE` over `CTY_NAME` for final value pulls.
 6. Always show the exact API endpoint URL(s) used with no API key in the shared URL.
-7. Do not save or attach CSV files unless the user explicitly asks for CSV/file output.
+7. Always offer CSV output after data pulls, but do not save or attach CSV files unless the user explicitly asks for CSV/file output.
 
 ## Workflow
 
@@ -55,7 +55,7 @@ Flow interpretation rule (required):
 6. Return:
 - summary of what was pulled (one short paragraph)
 - inline data table (if large, show a preview and note that CSV is available on request)
-- CSV download option only when explicitly requested by the user
+- explicit CSV offer line in every data response (for example: "I can write this to CSV if you want")
 - API endpoint URL(s) used for the pull, without API key query params
 - scope note with HS codes included
 - note on annual semantics when `GEN_VAL_YR`/`ALL_VAL_YR` is used (`MONTH=12` year-to-date total)
@@ -64,7 +64,8 @@ Data response format (required when user asked for data):
 1. `Summary of what you pulled`
 2. `Inline table with data` (or `table preview shown; CSV available on request` when large)
 3. `API endpoint(s) used` (no `key=` param shown)
-4. `CSV download` (file name + attachment/link) only if user explicitly requested CSV/file output
+4. `CSV offer` (always include: "CSV available on request")
+5. `CSV download` (file name + attachment/link) only if user explicitly requested CSV/file output
 
 ## Internal AI checklist (required)
 
